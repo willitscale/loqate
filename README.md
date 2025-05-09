@@ -1,6 +1,6 @@
 # Restored version due to the original being deleted
 
-# @pcs/loqate
+# @willitscale/loqate
 
 ## Description
 
@@ -26,7 +26,7 @@ Search on just about anything you know about an address. The most useful example
 'use strict'
 
 const key = process.env.LOQATE_KEY
-const { capture } = require('@pcs/loqate')(key)
+const { capture } = require('@willitscale/loqate')(key)
 
 ;(async () => {
   const result = await capture.find('tf50ne')
@@ -55,7 +55,7 @@ Use a postcode _container_ `id` (as found in `find` above), to return basic info
 'use strict'
 
 const key = process.env.LOQATE_KEY
-const { capture } = require('@pcs/loqate')(key)
+const { capture } = require('@willitscale/loqate')(key)
 
 ;(async () => {
   const result = await capture.container('GB|RM|ENG|0NE-TF5')
@@ -92,7 +92,7 @@ Use an _address_ `id` (as found in a call to `container` above) to return the fu
 'use strict'
 
 const key = process.env.LOQATE_KEY
-const { capture } = require('@pcs/loqate')(key)
+const { capture } = require('@willitscale/loqate')(key)
 
 ;(async () => {
   const result = await capture.address('GB|RM|A|24522142')

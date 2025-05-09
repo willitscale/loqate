@@ -1,5 +1,5 @@
 {
-  "name": "@pcs/loqate",
+  "name": "@willitscale/loqate",
   "version": "0.1.4",
   "description": "Wrapper functions to loqate.com services.",
   "main": "index.js",
