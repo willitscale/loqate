@@ -1,0 +1,26 @@
+{
+  "name": "@pcs/loqate",
+  "version": "0.1.4",
+  "description": "Wrapper functions to loqate.com services.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "loqate",
+    "address",
+    "lookup",
+    "paf"
+  ],
+  "author": "Simon Weare <simondweare@gmail.com>",
+  "homepage": "https://github.com/simondweare/loqate#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simondweare/loqate.git"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
